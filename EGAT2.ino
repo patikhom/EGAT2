@@ -46,7 +46,7 @@ SoftwareSerial my485(9, 8);            // RX, TX Pins       // Power meter (RS48
 String apn = "internet";                       //APN
 String apn_u = "ais";                     //APN-Username
 String apn_p = "ais";                     //APN-Password
-String url = "http://egat.allsmartmeter.com/from_hw/yourphpfile.php";  //URL for HTTP-POST-REQUEST
+String url = "http://www.yoururl.xxx/yourphpfile.php";  //URL for HTTP-POST-REQUEST
 String data1;   //String for the first Paramter (e.g. Sensor1)
 String data2;   //String for the second Paramter (e.g. Sensor2)
 String datastr; // all data
